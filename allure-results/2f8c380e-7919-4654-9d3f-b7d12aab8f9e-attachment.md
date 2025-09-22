@@ -1,0 +1,449 @@
+# Test info
+
+- Name: end to end
+- Location: /Users/divyanshu/Learning/Gitrepo/Playwright-automation/tests/Sainsburytu.spec.js:3:1
+
+# Error details
+
+```
+Error: locator.click: Error: strict mode violation: getByTestId('Header/NavChild Header/NavChild[0]') resolved to 2 elements:
+    1) <li class="NavMenu-module__item--KFeuM" data-testid="Header/NavChild Header/NavChild[0]">…</li> aka getByRole('listitem').filter({ hasText: 'SearchToggle Search Window' })
+    2) <li class="NavMenu-module__item--KFeuM" data-testid="Header/NavChild Header/NavChild[0]">…</li> aka getByTestId('Header/Nav').getByTestId('Header/NavChild Header/NavChild[0]')
+
+Call log:
+  - waiting for getByTestId('Header/NavChild Header/NavChild[0]')
+
+    at /Users/divyanshu/Learning/Gitrepo/Playwright-automation/tests/Sainsburytu.spec.js:9:62
+```
+
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Tu Logo":
+    - /url: /?clickOrigin=header:click:logo
+    - img "Tu Logo"
+  - text: Search
+  - searchbox "Search"
+  - button "Search"
+  - navigation "Primary Navigation":
+    - list:
+      - listitem
+      - listitem:
+        - button "Toggle Account Modal"
+      - listitem:
+        - link "Redirects to Basket":
+          - /url: /basket
+  - navigation "Primary Navigation":
+    - list:
+      - listitem:
+        - link "Women":
+          - /url: /browse/women/c:827836/?clickOrigin=header:click:nav:women
+      - listitem:
+        - link "Lingerie":
+          - /url: /browse/lingerie/c:840374/?clickOrigin=header:click:nav:lingerie
+      - listitem:
+        - link "Men":
+          - /url: /browse/men/c:827837/?clickOrigin=header:click:nav:men
+      - listitem:
+        - link "Girls":
+          - /url: /browse/girls/c:827839/?clickOrigin=header:click:nav:girls
+      - listitem:
+        - link "Boys":
+          - /url: /browse/boys/c:827838/?clickOrigin=header:click:nav:boys
+      - listitem:
+        - link "Baby":
+          - /url: /browse/baby/c:827840/?clickOrigin=header:click:nav:baby
+      - listitem:
+        - link "Halloween":
+          - /url: /events/halloween?clickOrigin=header:click:nav:halloween
+      - listitem:
+        - link "Christmas":
+          - /url: /events/christmas?clickOrigin=header:click:nav:christmas
+      - listitem:
+        - link "School Uniform":
+          - /url: /browse/school-uniform/c:842024/?clickOrigin=header:click:nav:school-uniform
+      - listitem:
+        - link "Brands":
+          - /url: /browse/brands/c:1000238/?clickOrigin=header:click:nav:brands
+      - listitem:
+        - link "Sale":
+          - /url: /events/sale?clickOrigin=header:click:nav:sale
+  - dialog
+- link "Just landed - your first look at the New Season drop! Shop New In":
+  - /url: /list/shop-all-clothing/?tag=tu:propbar:newin
+  - paragraph: Just landed - your first look at the New Season drop! Shop New In
+- main:
+  - heading "Tu Clothing Homepage" [level=1]
+  - link "Halloween. Halloween":
+    - /url: https://tuclothing.sainsburys.co.uk/events/halloween?tag=tu:hp:top-nav:m052:halloween
+    - img "Halloween."
+    - text: Halloween
+  - link "Women. Women":
+    - /url: https://tuclothing.sainsburys.co.uk/browse/women/new-in/c:1033925/?tag=tu:hp:top-nav:m052:women
+    - img "Women."
+    - text: Women
+  - link "Brands. Brands":
+    - /url: https://tuclothing.sainsburys.co.uk/list/shop-all-brands/opt/sort:new-arrivals/?tag=tu:hp:top-nav:m052:shop-all-brands
+    - img "Brands."
+    - text: Brands
+  - link "Men. Men":
+    - /url: https://tuclothing.sainsburys.co.uk/browse/men/new-in/c:1033922/?tag=tu:hp:top-nav:m052:men
+    - img "Men."
+    - text: Men
+  - link "Girls. Girls":
+    - /url: https://tuclothing.sainsburys.co.uk/browse/kids/girls/new-in/c:1033926/?tag=tu:hp:top-nav:m052:girls
+    - img "Girls."
+    - text: Girls
+  - link "Boys. Boys":
+    - /url: https://tuclothing.sainsburys.co.uk/browse/kids/boys/new-in/c:1033927/?tag=tu:hp:top-nav:m052:boys
+    - img "Boys."
+    - text: Boys
+  - link "Baby. Baby":
+    - /url: https://tuclothing.sainsburys.co.uk/browse/baby/new-in/c:1033924/?tag=tu:hp:top-nav:m052:baby
+    - img "Baby."
+    - text: Baby
+  - heading "Step into autumn" [level=3]
+  - list:
+    - listitem:
+      - button "Shop now"
+  - text: Your browser does not support the video tag.
+  - button "Pause"
+  - link "Barn jacket £45. Women's new season.":
+    - /url: //tuclothing.sainsburys.co.uk/browse/women/new-in/c:1033925/?tag=tu:hp:p3:list:new-season:womens-new-in
+    - img "Barn jacket £45. Women's new season."
+  - heading [level=3]
+  - list:
+    - listitem:
+      - button "Shop now"
+  - link "Denim dress £15. Kids' new season.":
+    - /url: //tuclothing.sainsburys.co.uk/browse/kids/new-in/c:1033923/?tag=tu:hp:p3:list:new-season:kids-new-in
+    - img "Denim dress £15. Kids' new season."
+  - heading [level=3]
+  - list:
+    - listitem:
+      - button "Shop now"
+  - link "Jeans £20. Men's new season.":
+    - /url: //tuclothing.sainsburys.co.uk/browse/men/new-in/c:1033922/?tag=tu:hp:p3:list:new-season:mens-new-in
+    - img "Jeans £20. Men's new season."
+  - heading [level=3]
+  - list:
+    - listitem:
+      - button "Shop now"
+  - link "Cloth dress £13. Baby new season.":
+    - /url: //tuclothing.sainsburys.co.uk/browse/baby/new-in/c:1033924/?tag=tu:hp:p3:list:new-season:baby-new-in
+    - img "Cloth dress £13. Baby new season."
+  - heading [level=3]
+  - list:
+    - listitem:
+      - button "Shop now"
+  - heading "Trending now" [level=2]
+  - link "New in Union Works. New in Union Works":
+    - /url: https://tuclothing.sainsburys.co.uk/browse/brands/union-works/c:1043171/?tag=tu:hp:trending-now:m052:union-works
+    - img "New in Union Works."
+    - text: New in Union Works
+  - link "Autumnal edit. Autumnal edit":
+    - /url: https://tuclothing.sainsburys.co.uk/list/shop-autumnal-styles?tag=tu:hp:trending-now:m052:shop-autumnal-styles
+    - img "Autumnal edit."
+    - text: Autumnal edit
+  - link "Pumpkin prints. Pumpkin prints":
+    - /url: https://tuclothing.sainsburys.co.uk/search/pumpkin/?tag=tu:hp:trending-now:m052:pumpkin
+    - img "Pumpkin prints."
+    - text: Pumpkin prints
+  - link "Women's nightwear. Women's nightwear":
+    - /url: https://tuclothing.sainsburys.co.uk/browse/women/nightwear/c:841905/?tag=tu:hp:trending-now:m052:womens-nightwear
+    - img "Women's nightwear."
+    - text: Women's nightwear
+  - link "Be inspired by Tu. Be inspired by Tu":
+    - /url: https://tuclothing.sainsburys.co.uk/features/trends-and-collections?tag=tu:hp:trending-now:m052:trends-and-collections
+    - img "Be inspired by Tu."
+    - text: Be inspired by Tu
+  - link "Denim dress £26 / Stovepipe jeans £22.50. The denim code.":
+    - /url: https://tuclothing.sainsburys.co.uk/list/shop-all-womens-denim?tag=tu:hp:p2:list:denim-shop:shop-all-womens-denim
+    - img "Denim dress £26 / Stovepipe jeans £22.50. The denim code."
+  - button "Shop now, pay over time with Klarna. 18+, T&Cs apply. Credit subject to status. Shop now, pay over time with Klarna. 18+, T&Cs apply. Credit subject to status. Find out more":
+    - img "Shop now, pay over time with Klarna. 18+, T&Cs apply. Credit subject to status."
+    - text: Shop now, pay over time with Klarna. 18+, T&Cs apply. Credit subject to status. Find out more
+  - link "Pumpkin print sweatshirt set £14. Spooky season.":
+    - /url: https://tuclothing.sainsburys.co.uk/events/halloween?tag=tu:hp:p4:list:events:halloween
+    - img "Pumpkin print sweatshirt set £14. Spooky season."
+  - link "White Stuff.":
+    - /url: //tuclothing.sainsburys.co.uk/browse/brands/white-stuff/c:1054895/?tag=tu:hp:p5:list:brand:white-stuff
+    - img "White Stuff."
+  - heading [level=3]
+  - list:
+    - listitem:
+      - button "Shop now"
+  - link "Oasis.":
+    - /url: //tuclothing.sainsburys.co.uk/browse/brands/oasis/c:1054336/?tag=tu:hp:p5:list:brand:oasis
+    - img "Oasis."
+  - heading [level=3]
+  - list:
+    - listitem:
+      - button "Shop now"
+  - link "Nightwear from £12. Christmas shop.":
+    - /url: https://tuclothing.sainsburys.co.uk/events/christmas?tag=tu:hp:p6:list:events:christmas
+    - img "Nightwear from £12. Christmas shop."
+  - link "Elle curated edit 2025.":
+    - /url: https://tuclothing.sainsburys.co.uk/list/elle-curated-edit?tag=tu:hp:p7:list:elle-curated-edit
+    - img "Elle curated edit 2025."
+  - heading "Women’s clothing" [level=3]
+  - paragraph:
+    - text: As the days get longer and the weather begins to warm up, step into spring with style. From
+    - link "tiered dresses":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/women/dresses/c:841889/type:tiered-dresses/
+    - text: to
+    - link "midi dresses":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/women/dresses/c:841889/style:midi/
+    - text: and
+    - link "jumpsuits and playsuits":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/women/jumpsuits-and-playsuits/c:841902/
+    - text: ", you can add some fair weather flair to your wardrobe."
+  - paragraph:
+    - text: A good pair of
+    - link "women’s jeans":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/women/jeans/c:841891/
+    - text: are also essential for any season. Whether you prefer a classic skinny fit, mom jeans, or high waist, we’ll help you find your perfect fit. Pair with basics such as one of our
+    - link "women’s t-shirts":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/women/tops-and-t-shirts/c:841938/
+    - text: for relaxed days.
+  - paragraph:
+    - text: If you’re pregnant, our
+    - link "maternity clothes":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/women/maternity/c:828032/
+    - text: are designed with both comfort and style in mind. From
+    - link "maternity T-shirts":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/women/maternity/c:828032/type:tops/
+    - text: to breathable sports leggings, we have a great selection to help you feel comfortable while staying stylish.
+  - heading "Men's clothing" [level=3]
+  - paragraph:
+    - text: Upgrade your wardrobe with our stylish and comfortable men's clothing. Our collection includes staples like classic
+    - link "men’s jeans":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/men/jeans/c:841774/
+    - text: ", in a variety of fits and washes. We have great basics such as"
+    - link "men’s t-shirts":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/men/t-shirts-and-polos/c:841797/
+    - text: for easy casual dressing, and
+    - link "men’s workwear":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/men/workwear/c:841799/
+    - text: for those smarter days. Our
+    - link "men’s jumpers":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/men/jumpers-and-cardigans/c:841777/
+    - text: are also great for smart casual wear, while our
+    - link "men’s activewear":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/men/sportswear/c:841793/
+    - text: will help you stay stylish in the gym.
+  - heading "Kids' clothes" [level=3]
+  - paragraph:
+    - text: Our range of
+    - link "kids’ clothing":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/kids/c:840373/
+    - text: includes everything from durable everyday wear and school uniforms to
+    - link "character clothing":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/kids/character-shop/c:842023/
+    - text: and shoes.
+  - paragraph:
+    - text: Our
+    - link "school uniform":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/school-uniform/c:842024/
+    - text: shop has everything they need for winter term. Pick some sturdy
+    - link "school shoes":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/school-uniform/boys/school-shoes/c:842025/
+    - text: for all-weather playtimes plus basics from
+    - link "school polo shirts":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/school-uniform/boys/school-polo-shirts/c:842043/
+    - text: to
+    - link "school jumpers":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/school-uniform/boys/school-jumpers-and-sweatshirts/c:842030/
+    - text: .
+  - paragraph:
+    - text: You’ll find a wide range of kids’ clothes to get them through the wet and windy weather. At night, get them cosy with some soft and comfy
+    - link "kids’ pyjamas":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/kids/kids-nightwear/c:1033929/
+    - text: .
+  - heading "Baby clothing and accessories" [level=3]
+  - paragraph:
+    - text: Discover our range of
+    - link "baby clothing":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/baby/c:827840/
+    - text: and accessories, including adorable
+    - link "baby bodysuits":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/baby/bodysuits/c:827844/
+    - text: and dungarees. Made from soft, delicate materials, our baby clothes are designed with your little one's comfort in mind. For the newest arrivals, our
+    - link "baby essentials":
+      - /url: https://tuclothing.sainsburys.co.uk/features/newborn-essentials-guide
+    - text: page has all the practical things you need for a little one, from
+    - link "sleepsuits":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/baby/sleepsuits-and-pyjamas/c:840368/
+    - text: to muslin cloths. We also have lots of cute
+    - link "baby outfits":
+      - /url: https://tuclothing.sainsburys.co.uk/browse/baby/outfits-and-sets/c:840366/
+    - text: for the new season, which are perfectly coordinated to save you time.
+  - button "Read more":
+    - strong: Read more
+- contentinfo:
+  - img
+  - heading "Sign up for 10% off your first order" [level=4]
+  - text: Open to customers not already signed-up to Tu marketing.
+  - link "T&Cs apply":
+    - /url: /help/terms-and-conditions
+  - text: .
+  - textbox "Sign up for 10% off your first order"
+  - button "Submit":
+    - text: Submit
+    - img
+  - text: By post, email, text message, telephone and other electronic means. For more information on how we use your personal details please refer to our
+  - link "Privacy Policy":
+    - /url: https://privacy-hub.sainsburys.co.uk/privacy-policy/
+  - text: and
+  - link "Cookie Policy":
+    - /url: https://privacy-hub.sainsburys.co.uk/cookie-policy/
+  - text: .
+  - navigation "Footer Menu":
+    - list:
+      - listitem:
+        - heading "Shopping" [level=3]:
+          - button "Shopping"
+        - list:
+          - listitem:
+            - link "Offers & Promotions":
+              - /url: /events/sale?clickOrigin=footer:click:menu:offersPromotions
+          - listitem:
+            - link "Nectar at Tu":
+              - /url: /help/nectar
+          - listitem:
+            - link "Keyworker Discount":
+              - /url: https://secure.gocertify.me/at/tu-clothing/key-worker
+      - listitem:
+        - heading "Need Help?" [level=3]:
+          - button "Need Help?"
+        - list:
+          - listitem:
+            - link "Help Centre":
+              - /url: /help?clickOrigin=footer:click:menu:help
+          - listitem:
+            - link "Contact Us":
+              - /url: /help/contact-us?INITD=GNav-Footer-ContactUs&clickOrigin=footer:click:menu:contactUs
+          - listitem:
+            - link "Store Finder":
+              - /url: /store-finder?clickOrigin=footer:click:menu:storeFinder
+      - listitem:
+        - heading "Delivery & Returns" [level=3]:
+          - button "Delivery & Returns"
+        - list:
+          - listitem:
+            - link "Delivery Information":
+              - /url: /help/delivery-information?clickOrigin=footer:click:menu:deliveryInformation
+          - listitem:
+            - link "Returns & Refunds":
+              - /url: /help/returns-and-refunds?INITD=GNav-Footer-ReturnsRefunds&clickOrigin=footer:click:menu:returnsRefunds
+          - listitem:
+            - link "Track your order":
+              - /url: https://tuclothing.sainsburys.co.uk/order/tracking
+      - listitem:
+        - heading "Corporate Responsibility" [level=3]:
+          - button "Corporate Responsibility"
+        - list:
+          - listitem:
+            - link "Sustainability":
+              - /url: /features/sustainability?clickOrigin=footer:click:menu:sustainability
+          - listitem:
+            - link "Product Recall":
+              - /url: /help/product-recall?clickOrigin=footer:click:menu:productRecall
+      - listitem:
+        - heading "Policies" [level=3]:
+          - button "Policies"
+        - list:
+          - listitem:
+            - link "Cookie Policy":
+              - /url: https://privacy-hub.sainsburys.co.uk/cookie-policy/
+          - listitem:
+            - link "Cookie Preferences":
+              - /url: https://privacy-hub.sainsburys.co.uk/cookie-policy/
+          - listitem:
+            - link "Modern Slavery Statement":
+              - /url: https://www.about.sainsburys.co.uk/sustainability/plan-for-better/our-stories/2017/standing-up-to-modern-slavery
+  - heading "Our Brands" [level=3]
+  - list:
+    - listitem:
+      - link "Sainsbury's":
+        - /url: https://www.sainsburys.co.uk/
+    - listitem:
+      - link "Argos":
+        - /url: https://www.argos.co.uk/?cmpid=SB-TU-16
+    - listitem:
+      - link "Habitat":
+        - /url: https://www.habitat.co.uk?utm_source=&amp;utm_medium=referral&amp;utm_campaign=TUFooter&amp;_$ja=tsid:77091|cgn:TUFooter
+    - listitem:
+      - link "Nectar":
+        - /url: https://www.nectar.com/
+  - heading "Follow us on social media" [level=3]
+  - list:
+    - listitem:
+      - link "Facebook":
+        - /url: https://www.facebook.com/tuclothing
+    - listitem:
+      - link "Tiktok":
+        - /url: https://www.tiktok.com/@tuclothing
+    - listitem:
+      - link "Instagram":
+        - /url: https://www.instagram.com/tuclothing
+    - listitem:
+      - link "Pinterest":
+        - /url: https://www.pinterest.co.uk/tuclothing/
+  - heading "Accepted payment options" [level=3]
+  - list:
+    - listitem:
+      - img "Visa"
+    - listitem:
+      - img "Mastercard"
+    - listitem:
+      - img "American Express"
+    - listitem:
+      - img "Visa Electron"
+    - listitem:
+      - img "Apple Pay"
+    - listitem:
+      - img "Klarna"
+    - listitem:
+      - img "PayPal"
+  - navigation:
+    - list:
+      - listitem:
+        - link "Cookie Policy":
+          - /url: https://privacy-hub.sainsburys.co.uk/cookie-policy/
+      - listitem:
+        - link "Terms & Conditions":
+          - /url: /help/terms-and-conditions
+      - listitem:
+        - link "Privacy Policy":
+          - /url: https://privacy-hub.sainsburys.co.uk/privacy-policy/
+      - listitem:
+        - link "Accessibility":
+          - /url: https://help.sainsburys.co.uk/help/website/our-commitment
+  - paragraph: © J Sainsbury PLC 2025
+- alert
+- button "Feedback Feedback":
+  - img "Feedback"
+  - text: Feedback
+```
+
+# Test source
+
+```ts
+   1 | const { test, expect } = require('@playwright/test')
+   2 |
+   3 | test('end to end', async ({ page }) => {
+   4 |
+   5 | await page.goto("https://tuclothing.sainsburys.co.uk/")
+   6 | await page.getByRole('button', {name: 'Continue and accept'}).click();
+   7 |
+   8 | //await page.getByTestId('Header/Nav').getByRole('link', { name: 'Women' }).click();
+>  9 | await page.getByTestId('Header/NavChild Header/NavChild[0]').click();
+     |                                                              ^ Error: locator.click: Error: strict mode violation: getByTestId('Header/NavChild Header/NavChild[0]') resolved to 2 elements:
+  10 |
+  11 |
+  12 |
+  13 | })
+  14 |
+```

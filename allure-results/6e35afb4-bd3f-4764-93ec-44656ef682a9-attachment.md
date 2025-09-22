@@ -1,0 +1,834 @@
+# Test info
+
+- Name: Search for skirt and verify all results contain skirt
+- Location: /Users/divyanshu/Learning/Gitrepo/Playwright-automation/tests/Sainsburytu.spec.js:3:1
+
+# Error details
+
+```
+Error: expect(received).toBeGreaterThan(expected)
+
+Expected: > 0
+Received:   0
+    at /Users/divyanshu/Learning/Gitrepo/Playwright-automation/tests/Sainsburytu.spec.js:27:32
+```
+
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Tu Logo":
+    - /url: /?clickOrigin=header:click:logo
+    - img "Tu Logo"
+  - text: Search
+  - searchbox "Search"
+  - button "Search"
+  - navigation "Primary Navigation":
+    - list:
+      - listitem
+      - listitem:
+        - button "Toggle Account Modal"
+      - listitem:
+        - link "Redirects to Basket":
+          - /url: /basket
+  - navigation "Primary Navigation":
+    - list:
+      - listitem:
+        - link "Women":
+          - /url: /browse/women/c:827836/?clickOrigin=header:click:nav:women
+      - listitem:
+        - link "Lingerie":
+          - /url: /browse/lingerie/c:840374/?clickOrigin=header:click:nav:lingerie
+      - listitem:
+        - link "Men":
+          - /url: /browse/men/c:827837/?clickOrigin=header:click:nav:men
+      - listitem:
+        - link "Girls":
+          - /url: /browse/girls/c:827839/?clickOrigin=header:click:nav:girls
+      - listitem:
+        - link "Boys":
+          - /url: /browse/boys/c:827838/?clickOrigin=header:click:nav:boys
+      - listitem:
+        - link "Baby":
+          - /url: /browse/baby/c:827840/?clickOrigin=header:click:nav:baby
+      - listitem:
+        - link "Halloween":
+          - /url: /events/halloween?clickOrigin=header:click:nav:halloween
+      - listitem:
+        - link "Christmas":
+          - /url: /events/christmas?clickOrigin=header:click:nav:christmas
+      - listitem:
+        - link "School Uniform":
+          - /url: /browse/school-uniform/c:842024/?clickOrigin=header:click:nav:school-uniform
+      - listitem:
+        - link "Brands":
+          - /url: /browse/brands/c:1000238/?clickOrigin=header:click:nav:brands
+      - listitem:
+        - link "Sale":
+          - /url: /events/sale?clickOrigin=header:click:nav:sale
+  - dialog
+- link "Just landed - your first look at the New Season drop! Shop New In":
+  - /url: /list/shop-all-clothing/?tag=tu:propbar:newin
+  - paragraph: Just landed - your first look at the New Season drop! Shop New In
+- main:
+  - dialog "Show results for":
+    - heading "Show results for" [level=4]:
+      - strong: Show results for
+    - button "Category" [expanded]:
+      - heading "Category" [level=4]
+      - img
+    - region "Category":
+      - list:
+        - listitem:
+          - button "All Categories":
+            - img
+            - text: All Categories
+        - listitem:
+          - button "Skirts" [disabled] [expanded]:
+            - heading "Skirts" [level=2]
+          - region "Skirts":
+            - list:
+              - listitem:
+                - link "Womens skirts (65)":
+                  - /url: "#"
+              - listitem:
+                - link "Girls shorts and skirts (39)":
+                  - /url: "#"
+    - heading "Filter by" [level=4]:
+      - strong: Filter by
+    - button "Size" [expanded]:
+      - heading "Size" [level=4]
+      - img
+    - region "Size":
+      - list:
+        - listitem:
+          - link "0-6 Months":
+            - /url: "#"
+        - listitem:
+          - link "6-12 months":
+            - /url: "#"
+        - listitem:
+          - link "2 years":
+            - /url: "#"
+        - listitem:
+          - link "3 years":
+            - /url: "#"
+        - listitem:
+          - link "4 years":
+            - /url: "#"
+        - listitem:
+          - link "5 years":
+            - /url: "#"
+        - listitem:
+          - link "6 years":
+            - /url: "#"
+        - listitem:
+          - link "7 years":
+            - /url: "#"
+        - listitem:
+          - link "8 years":
+            - /url: "#"
+        - listitem:
+          - link "9 years":
+            - /url: "#"
+        - listitem:
+          - link "10 years":
+            - /url: "#"
+        - listitem:
+          - link "11 years":
+            - /url: "#"
+        - listitem:
+          - link "12 years":
+            - /url: "#"
+        - listitem:
+          - link "13 years":
+            - /url: "#"
+        - listitem:
+          - link "14 years":
+            - /url: "#"
+    - button "Show more"
+    - button "Style" [expanded]:
+      - heading "Style" [level=4]
+      - img
+    - region "Style":
+      - checkbox "18"
+      - text: Midaxi (18)
+      - checkbox "17"
+      - text: Midi (17)
+      - checkbox "14"
+      - text: Plain (14)
+      - checkbox "13"
+      - text: Denim (13)
+      - checkbox "11"
+      - text: Maxi (11)
+    - button "Show more"
+    - button "Colour group" [expanded]:
+      - heading "Colour group" [level=4]
+      - img
+    - region "Colour group":
+      - checkbox "25"
+      - text: Blacks (25)
+      - checkbox "22"
+      - text: Blues (22)
+      - checkbox "14"
+      - text: Multicoloured (14)
+      - checkbox "12"
+      - text: Greys (12)
+      - checkbox "10"
+      - text: Reds (10)
+    - button "Show more"
+    - button "Brands" [expanded]:
+      - heading "Brands" [level=4]
+      - img
+    - region "Brands":
+      - checkbox "56"
+      - text: Tu (56)
+      - checkbox "6"
+      - text: Simply Be (6)
+      - checkbox "5"
+      - text: Vila (5)
+      - checkbox "4"
+      - text: ELLE (4)
+      - checkbox "4"
+      - text: Sosandar (4)
+    - button "Show more"
+    - button "Price" [expanded]:
+      - heading "Price" [level=4]
+      - img
+    - region "Price":
+      - checkbox "6"
+      - text: Under £5 (6)
+      - checkbox "42"
+      - text: £5 - £10 (42)
+      - checkbox "32"
+      - text: £10 - £15 (32)
+      - checkbox "34"
+      - text: £15 - £20 (34)
+      - checkbox "14"
+      - text: £20 - £25 (14)
+    - button "Show more"
+    - button "Customer Rating":
+      - heading "Customer Rating" [level=4]
+      - img
+    - button "Department":
+      - heading "Department" [level=4]
+      - img
+    - button "type":
+      - heading "type" [level=4]
+      - img
+  - heading "Results for 'skirt' in..." [level=4]
+  - heading "Skirts" [level=1]
+  - text: Select your department
+  - list:
+    - listitem:
+      - button "Women (65)"
+    - listitem:
+      - button "Girls (39)"
+    - listitem:
+      - button "Boys (4)"
+    - listitem:
+      - button "Unisex (4)"
+  - text: 104 products Sort by
+  - img
+  - combobox "Sort by":
+    - option "Relevance" [selected]
+    - 'option "Price: Low - High"'
+    - 'option "Price: High - Low"'
+    - option "Customer Rating"
+    - option "New Arrivals"
+  - img "Morris & Co"
+  - link "Tu x Morris & Co. Light Blue Chiffon Pleated Co-ord Maxi Skirt":
+    - /url: /product/tuc146929373?clickSR=slp:term:skirt:1:104:1
+  - link "£28.00":
+    - /url: /product/tuc146929373?clickSR=slp:term:skirt:1:104:1
+    - strong: £28.00
+  - link:
+    - /url: /product/tuc146929373?clickSR=slp:term:skirt:1:104:1
+  - img
+  - list:
+    - listitem "Khaki":
+      - link "Khaki":
+        - /url: /product/tuc146463876?clickOrigin=colourSwatch
+    - listitem "Teal":
+      - link "Teal":
+        - /url: /product/tuc146464027?clickOrigin=colourSwatch
+    - listitem "Pink":
+      - link "Pink":
+        - /url: /product/tuc146463930?clickOrigin=colourSwatch
+    - listitem "Black":
+      - link "Black":
+        - /url: /product/tuc146463753?clickOrigin=colourSwatch
+  - link "Satin Midaxi Skirt":
+    - /url: /product/tuc146463876?clickSR=slp:term:skirt:2:104:1
+  - link "£18.00":
+    - /url: /product/tuc146463876?clickSR=slp:term:skirt:2:104:1
+    - strong: £18.00
+  - link:
+    - /url: /product/tuc146463876?clickSR=slp:term:skirt:2:104:1
+  - img
+  - list:
+    - listitem "Black":
+      - link "Black":
+        - /url: /product/tuc146220313?clickOrigin=colourSwatch
+    - listitem "Dark Red":
+      - link "Dark Red":
+        - /url: /product/tuc146220436?clickOrigin=colourSwatch
+  - link "Faux Leather Pleated Mini Skirt":
+    - /url: /product/tuc146220428?clickSR=slp:term:skirt:3:104:1
+  - link "£18.00":
+    - /url: /product/tuc146220428?clickSR=slp:term:skirt:3:104:1
+    - strong: £18.00
+  - link:
+    - /url: /product/tuc146220428?clickSR=slp:term:skirt:3:104:1
+  - img "Sosandar"
+  - link "SOSANDAR Leopard Print Denim Midi Skirt":
+    - /url: /product/tuc147275172
+  - link "£55.00":
+    - /url: /product/tuc147275172
+    - strong: £55.00
+  - link:
+    - /url: /product/tuc147275172
+  - img
+  - link "Denim Blouse With Gilet And Rara Skirt 4-Piece Set":
+    - /url: /product/tuc146371613
+  - link "£28.00":
+    - /url: /product/tuc146371613
+    - strong: £28.00
+  - link:
+    - /url: /product/tuc146371613
+  - img
+  - link "Brown Full Midaxi Twill Skirt":
+    - /url: /product/tuc146294793
+  - link "£18.00":
+    - /url: /product/tuc146294793
+    - strong: £18.00
+  - link:
+    - /url: /product/tuc146294793
+  - img
+  - link "Red Check Corduroy Rara Skirt & Cream Tights":
+    - /url: /product/tuc146359884
+  - link "£13.00":
+    - /url: /product/tuc146359884
+    - strong: £13.00
+  - link:
+    - /url: /product/tuc146359884
+  - img "Simply Be"
+  - link "SIMPLY BE Chiffon Pleated Midaxi Skirt":
+    - /url: /product/tuc147239737
+  - link "£35.00":
+    - /url: /product/tuc147239737
+    - strong: £35.00
+  - link:
+    - /url: /product/tuc147239737
+  - img "Oasis"
+  - link "OASIS Bias Cut Satin Midi Skirt":
+    - /url: /product/tuc147158793
+  - link "£35.00":
+    - /url: /product/tuc147158793
+    - strong: £35.00
+  - link:
+    - /url: /product/tuc147158793
+  - img "Oasis"
+  - link "OASIS Bias Cut Satin Midi Skirt":
+    - /url: /product/tuc147158620
+  - link "£35.00":
+    - /url: /product/tuc147158620
+    - strong: £35.00
+  - link:
+    - /url: /product/tuc147158620
+  - img
+  - link "Burgundy Column Maxi Skirt, Rating 4.0 out of 5, 1 review":
+    - /url: /product/tuc146346928
+    - text: Burgundy Column Maxi Skirt Rating 4 out of 5
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - text: (1) review
+  - link "£18.00":
+    - /url: /product/tuc146346928
+    - strong: £18.00
+  - link:
+    - /url: /product/tuc146346928
+  - img
+  - list:
+    - listitem "Black":
+      - link "Black":
+        - /url: /product/tuc146464131?clickOrigin=colourSwatch
+    - listitem "Khaki":
+      - link "Khaki":
+        - /url: /product/tuc146464254?clickOrigin=colourSwatch
+  - link "Faux Leather A-Line Mini Skirt":
+    - /url: /product/tuc146464131
+  - link "£18.00":
+    - /url: /product/tuc146464131
+    - strong: £18.00
+  - link:
+    - /url: /product/tuc146464131
+  - img
+  - link "Charcoal Soft Column Midaxi Skirt":
+    - /url: /product/tuc146347701
+  - link "£18.00":
+    - /url: /product/tuc146347701
+    - strong: £18.00
+  - link:
+    - /url: /product/tuc146347701
+  - img "Vila"
+  - link "VILA Ankle Knit Skirt":
+    - /url: /product/tuc146868241
+  - link "£38.00":
+    - /url: /product/tuc146868241
+    - strong: £38.00
+  - link:
+    - /url: /product/tuc146868241
+  - img
+  - list:
+    - listitem "Mono":
+      - link "Mono":
+        - /url: /product/tuc146360113?clickOrigin=colourSwatch
+    - listitem "Dark Red":
+      - link "Dark Red":
+        - /url: /product/tuc146360041?clickOrigin=colourSwatch
+  - link "Co-ord Heavyweight Mini Skirt":
+    - /url: /product/tuc146360164
+  - link "£18.00":
+    - /url: /product/tuc146360164
+    - strong: £18.00
+  - link:
+    - /url: /product/tuc146360164
+  - img
+  - link "Romantic Two-Tone Co-ord Belted Godet Skirt, As seen on TV":
+    - /url: /product/tuc146885981
+    - text: Romantic Two-Tone Co-ord Belted Godet Skirt
+  - link "£28.00":
+    - /url: /product/tuc146885981
+    - strong: £28.00
+  - link:
+    - /url: /product/tuc146885981
+  - img
+  - list:
+    - listitem "Dark Red":
+      - link "Dark Red":
+        - /url: /product/tuc146221551?clickOrigin=colourSwatch
+    - listitem "Black":
+      - link "Black":
+        - /url: /product/tuc146221519?clickOrigin=colourSwatch
+  - link "Corduroy A-Line Mini Skirt, Rating 5.0 out of 5, 2 reviews":
+    - /url: /product/tuc146221519
+    - text: Corduroy A-Line Mini Skirt Rating 5 out of 5
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - text: (2) reviews
+  - link "£16.00":
+    - /url: /product/tuc146221519
+    - strong: £16.00
+  - link:
+    - /url: /product/tuc146221519
+  - img "Finery"
+  - link "FINERY Winona Denim Skirt Indigo":
+    - /url: /product/tuc146952670
+  - link "£45.00":
+    - /url: /product/tuc146952670
+    - strong: £45.00
+  - link:
+    - /url: /product/tuc146952670
+  - img
+  - link "Cow Printed Co-ord Mini Denim Skirt":
+    - /url: /product/tuc146655093
+  - link "£18.00":
+    - /url: /product/tuc146655093
+    - strong: £18.00
+  - link:
+    - /url: /product/tuc146655093
+  - img "Finery"
+  - link "FINERY Winona Denim Skirt Light Blue":
+    - /url: /product/tuc146952493
+  - link "£45.00":
+    - /url: /product/tuc146952493
+    - strong: £45.00
+  - link:
+    - /url: /product/tuc146952493
+  - img
+  - link "Dark Rinse Co-ord Mini Denim Skirt, Rating 4.4 out of 5, 5 reviews":
+    - /url: /product/tuc146655376
+    - text: Dark Rinse Co-ord Mini Denim Skirt Rating 4.4 out of 5
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - text: (5) reviews
+  - link "£16.00":
+    - /url: /product/tuc146655376
+    - strong: £16.00
+  - link:
+    - /url: /product/tuc146655376
+  - img "JD Williams"
+  - link "JD WILLIAMS Pocket Front Denim Midi Skirt":
+    - /url: /product/tuc147066653
+  - link "£38.00":
+    - /url: /product/tuc147066653
+    - strong: £38.00
+  - link:
+    - /url: /product/tuc147066653
+  - img
+  - link "Suedette Mini Skirt":
+    - /url: /product/tuc146452106
+  - link "£18.00":
+    - /url: /product/tuc146452106
+    - strong: £18.00
+  - link:
+    - /url: /product/tuc146452106
+  - img
+  - link "Western Brown Gingham Co-ord Full Midaxi Skirt, Rating 4.7 out of 5, 6 reviews":
+    - /url: /product/tuc146851641
+    - text: Western Brown Gingham Co-ord Full Midaxi Skirt Rating 4.6667 out of 5
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - text: (6) reviews
+  - link "£26.00":
+    - /url: /product/tuc146851641
+    - strong: £26.00
+  - link:
+    - /url: /product/tuc146851641
+  - img
+  - link "Denim Skirt & Tights Set":
+    - /url: /product/tuc146359534
+  - link "£13.00":
+    - /url: /product/tuc146359534
+    - strong: £13.00
+  - link:
+    - /url: /product/tuc146359534
+  - img
+  - link "Leopard Printed Plisse Co-ord Maxi Skirt, Rating 5.0 out of 5, 2 reviews":
+    - /url: /product/tuc146219486
+    - text: Leopard Printed Plisse Co-ord Maxi Skirt Rating 5 out of 5
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - text: (2) reviews
+  - link "£18.00":
+    - /url: /product/tuc146219486
+    - strong: £18.00
+  - link:
+    - /url: /product/tuc146219486
+  - img
+  - link "Mid Wash Studded Midaxi Denim Skirt, Rating 5.0 out of 5, 2 reviews":
+    - /url: /product/tuc146109922
+    - text: Mid Wash Studded Midaxi Denim Skirt Rating 5 out of 5
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - text: (2) reviews
+  - link "£22.50":
+    - /url: /product/tuc146109922
+    - strong: £22.50
+  - link:
+    - /url: /product/tuc146109922
+  - img
+  - link "Black Tailored Midaxi Skirt, Rating 4.0 out of 5, 4 reviews":
+    - /url: /product/tuc146307911
+    - text: Black Tailored Midaxi Skirt Rating 4 out of 5
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - text: (4) reviews
+  - link "£18.00":
+    - /url: /product/tuc146307911
+    - strong: £18.00
+  - link:
+    - /url: /product/tuc146307911
+  - img
+  - link "Black Tailored Ponte Mini Skirt, Rating 3.0 out of 5, 1 review":
+    - /url: /product/tuc146292368
+    - text: Black Tailored Ponte Mini Skirt Rating 3 out of 5
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - text: (1) review
+  - link "£16.00":
+    - /url: /product/tuc146292368
+    - strong: £16.00
+  - link:
+    - /url: /product/tuc146292368
+  - img
+  - link "Black Bow Detail Skirt, Rating 5.0 out of 5, 1 review":
+    - /url: /product/tuc146085449
+    - text: Black Bow Detail Skirt Rating 5 out of 5
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - img
+    - text: (1) review
+  - link "From £5.00":
+    - /url: /product/tuc146085449
+    - text: From
+    - strong: £5.00
+  - link:
+    - /url: /product/tuc146085449
+  - navigation "Pagination Navigation":
+    - link "Current page, page 1":
+      - /url: /search/skirt/category:805830/
+      - text: "1"
+    - link "Go to page 2":
+      - /url: /search/skirt/category:805830/opt/page:2/
+      - text: "2"
+    - link "Go to page 3":
+      - /url: /search/skirt/category:805830/opt/page:3/
+      - text: "3"
+    - link "Go to page 4":
+      - /url: /search/skirt/category:805830/opt/page:4/
+      - text: "4"
+    - link "Go to page 2":
+      - /url: /search/skirt/category:805830/opt/page:2/
+      - img
+  - strong: "Search feedback:"
+  - text: Were these results helpful?
+  - button "Yes"
+  - button "No"
+- contentinfo:
+  - img
+  - heading "Sign up for 10% off your first order" [level=4]
+  - text: Open to customers not already signed-up to Tu marketing.
+  - link "T&Cs apply":
+    - /url: /help/terms-and-conditions
+  - text: .
+  - textbox "Sign up for 10% off your first order"
+  - button "Submit":
+    - text: Submit
+    - img
+  - text: By post, email, text message, telephone and other electronic means. For more information on how we use your personal details please refer to our
+  - link "Privacy Policy":
+    - /url: https://privacy-hub.sainsburys.co.uk/privacy-policy/
+  - text: and
+  - link "Cookie Policy":
+    - /url: https://privacy-hub.sainsburys.co.uk/cookie-policy/
+  - text: .
+  - navigation "Footer Menu":
+    - list:
+      - listitem:
+        - heading "Shopping" [level=3]:
+          - button "Shopping"
+        - list:
+          - listitem:
+            - link "Offers & Promotions":
+              - /url: /events/sale?clickOrigin=footer:click:menu:offersPromotions
+          - listitem:
+            - link "Nectar at Tu":
+              - /url: /help/nectar
+          - listitem:
+            - link "Keyworker Discount":
+              - /url: https://secure.gocertify.me/at/tu-clothing/key-worker
+      - listitem:
+        - heading "Need Help?" [level=3]:
+          - button "Need Help?"
+        - list:
+          - listitem:
+            - link "Help Centre":
+              - /url: /help?clickOrigin=footer:click:menu:help
+          - listitem:
+            - link "Contact Us":
+              - /url: /help/contact-us?INITD=GNav-Footer-ContactUs&clickOrigin=footer:click:menu:contactUs
+          - listitem:
+            - link "Store Finder":
+              - /url: /store-finder?clickOrigin=footer:click:menu:storeFinder
+      - listitem:
+        - heading "Delivery & Returns" [level=3]:
+          - button "Delivery & Returns"
+        - list:
+          - listitem:
+            - link "Delivery Information":
+              - /url: /help/delivery-information?clickOrigin=footer:click:menu:deliveryInformation
+          - listitem:
+            - link "Returns & Refunds":
+              - /url: /help/returns-and-refunds?INITD=GNav-Footer-ReturnsRefunds&clickOrigin=footer:click:menu:returnsRefunds
+          - listitem:
+            - link "Track your order":
+              - /url: https://tuclothing.sainsburys.co.uk/order/tracking
+      - listitem:
+        - heading "Corporate Responsibility" [level=3]:
+          - button "Corporate Responsibility"
+        - list:
+          - listitem:
+            - link "Sustainability":
+              - /url: /features/sustainability?clickOrigin=footer:click:menu:sustainability
+          - listitem:
+            - link "Product Recall":
+              - /url: /help/product-recall?clickOrigin=footer:click:menu:productRecall
+      - listitem:
+        - heading "Policies" [level=3]:
+          - button "Policies"
+        - list:
+          - listitem:
+            - link "Cookie Policy":
+              - /url: https://privacy-hub.sainsburys.co.uk/cookie-policy/
+          - listitem:
+            - link "Cookie Preferences":
+              - /url: https://privacy-hub.sainsburys.co.uk/cookie-policy/
+          - listitem:
+            - link "Modern Slavery Statement":
+              - /url: https://www.about.sainsburys.co.uk/sustainability/plan-for-better/our-stories/2017/standing-up-to-modern-slavery
+  - heading "Our Brands" [level=3]
+  - list:
+    - listitem:
+      - link "Sainsbury's":
+        - /url: https://www.sainsburys.co.uk/
+    - listitem:
+      - link "Argos":
+        - /url: https://www.argos.co.uk/?cmpid=SB-TU-16
+    - listitem:
+      - link "Habitat":
+        - /url: https://www.habitat.co.uk?utm_source=&amp;utm_medium=referral&amp;utm_campaign=TUFooter&amp;_$ja=tsid:77091|cgn:TUFooter
+    - listitem:
+      - link "Nectar":
+        - /url: https://www.nectar.com/
+  - heading "Follow us on social media" [level=3]
+  - list:
+    - listitem:
+      - link "Facebook":
+        - /url: https://www.facebook.com/tuclothing
+    - listitem:
+      - link "Tiktok":
+        - /url: https://www.tiktok.com/@tuclothing
+    - listitem:
+      - link "Instagram":
+        - /url: https://www.instagram.com/tuclothing
+    - listitem:
+      - link "Pinterest":
+        - /url: https://www.pinterest.co.uk/tuclothing/
+  - heading "Accepted payment options" [level=3]
+  - list:
+    - listitem:
+      - img "Visa"
+    - listitem:
+      - img "Mastercard"
+    - listitem:
+      - img "American Express"
+    - listitem:
+      - img "Visa Electron"
+    - listitem:
+      - img "Apple Pay"
+    - listitem:
+      - img "Klarna"
+    - listitem:
+      - img "PayPal"
+  - navigation:
+    - list:
+      - listitem:
+        - link "Cookie Policy":
+          - /url: https://privacy-hub.sainsburys.co.uk/cookie-policy/
+      - listitem:
+        - link "Terms & Conditions":
+          - /url: /help/terms-and-conditions
+      - listitem:
+        - link "Privacy Policy":
+          - /url: https://privacy-hub.sainsburys.co.uk/privacy-policy/
+      - listitem:
+        - link "Accessibility":
+          - /url: https://help.sainsburys.co.uk/help/website/our-commitment
+  - paragraph: © J Sainsbury PLC 2025
+- button "Feedback Feedback":
+  - img "Feedback"
+  - text: Feedback
+```
+
+# Test source
+
+```ts
+   1 | const { test, expect } = require('@playwright/test');
+   2 |
+   3 | test('Search for skirt and verify all results contain skirt', async ({ page }) => {
+   4 |   await page.goto('https://tuclothing.sainsburys.co.uk/');
+   5 |   await page.locator('#onetrust-accept-btn-handler').click();
+   6 |
+   7 |   // Perform search
+   8 |   const searchInput = page.locator('#searchInput');
+   9 |   await searchInput.fill('skirt');
+  10 |   await searchInput.press('Enter');
+  11 |
+  12 |   // Wait for product list
+  13 |   const productList = page.locator('[data-test="product-list"]');
+  14 |   await expect(productList).toBeVisible();
+  15 |
+  16 |   // Specific locator for product title links
+  17 |   const productTitlesLocator = productList.locator(
+  18 |     'a[data-test="component-product-card-link"][aria-label]'
+  19 |   );
+  20 |
+  21 |   // Extract all aria-labels in one go
+  22 |   const productTitles = await productTitlesLocator.evaluateAll(els =>
+  23 |     els.map(el => el.getAttribute('aria-label').trim())
+  24 |   );
+  25 |
+  26 |   // Assert at least one product found
+> 27 |   expect(productTitles.length).toBeGreaterThan(0);
+     |                                ^ Error: expect(received).toBeGreaterThan(expected)
+  28 |
+  29 |   // Assert all titles contain "skirt"
+  30 |   for (const title of productTitles) {
+  31 |     expect(title.toLowerCase()).toContain('skirt');
+  32 |   }
+  33 | });
+  34 |
+```

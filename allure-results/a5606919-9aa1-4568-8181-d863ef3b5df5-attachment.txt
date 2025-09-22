@@ -1,0 +1,35 @@
+[
+  'Tu x Morris & Co. Light Blue Chiffon Pleated Co-ord Maxi Skirt',
+  'Satin Midaxi Skirt',
+  'Faux Leather Pleated Mini Skirt',
+  'SOSANDAR Leopard Print Denim Midi Skirt',
+  'Brown Full Midaxi Twill Skirt',
+  'SIMPLY BE Chiffon Pleated Midaxi Skirt',
+  'OASIS Bias Cut Satin Midi Skirt',
+  'OASIS Bias Cut Satin Midi Skirt',
+  'Burgundy Column Maxi Skirt\nRating 4 out of 5\n(1)\nreview',
+  'Faux Leather A-Line Mini Skirt',
+  'Charcoal Soft Column Midaxi Skirt',
+  'VILA Ankle Knit Skirt',
+  'Co-ord Heavyweight Mini Skirt',
+  'Romantic Two-Tone Co-ord Belted Godet Skirt',
+  'Corduroy A-Line Mini Skirt\nRating 5 out of 5\n(2)\nreviews',
+  'FINERY Winona Denim Skirt Indigo',
+  'Cow Printed Co-ord Mini Denim Skirt',
+  'FINERY Winona Denim Skirt Light Blue',
+  'Suedette Mini Skirt',
+  'Dark Rinse Co-ord Mini Denim Skirt\nRating 4.4 out of 5\n(5)\nreviews',
+  'JD WILLIAMS Pocket Front Denim Midi Skirt',
+  'Western Brown Gingham Co-ord Full Midaxi Skirt\n' +
+    'Rating 4.6667 out of 5\n' +
+    '(6)\n' +
+    'reviews',
+  'Leopard Printed Plisse Co-ord Maxi Skirt\nRating 5 out of 5\n(2)\nreviews',
+  'Beige Faux Suede Co-ord Midaxi Skirt\nRating 5 out of 5\n(2)\nreviews',
+  'Mid Wash Studded Midaxi Denim Skirt\nRating 5 out of 5\n(2)\nreviews',
+  'Black Tailored Midaxi Skirt\nRating 4 out of 5\n(4)\nreviews',
+  'Black Tailored Ponte Mini Skirt\nRating 3 out of 5\n(1)\nreview',
+  'NOISY MAY Curve Short Faux Leather Skirt',
+  'NOISY MAY Short Faux Leather Skirt',
+  'VILA High Waist Midi Skirt'
+]
